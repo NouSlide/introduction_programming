@@ -8,8 +8,6 @@ int main() {
     SetConsoleCP(CP_UTF8);
 
     float leg1, leg2;
-    bool check = true; // положительные ли катеты
-
     std::cout << "Введите два катета через пробел: ";
 
     while (!(std::cin >> leg1 >> leg2) || leg1 <= 0 || leg2 <= 0) {
