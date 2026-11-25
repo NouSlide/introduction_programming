@@ -13,7 +13,7 @@ int main() {
 
     std::uniform_int_distribution<int> dist(0, 100);
 
-    int numbers[5];
+    int numbers[20];
     for (int i = 0; i < 5; i++) {
         numbers[i] = dist(gen);
     }
